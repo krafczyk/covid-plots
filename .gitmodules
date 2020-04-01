@@ -1,3 +1,6 @@
 [submodule "covid-19-data"]
 	path = nyt-data
 	url = https://github.com/nytimes/covid-19-data
+[submodule "jhu-data"]
+	path = jhu-data
+	url = git@github.com:CSSEGISandData/COVID-19.git
