@@ -1,4 +1,4 @@
-country,region,subregion,Pop_2020,land_area
+country,region,subregion,pop_2020,land_area
 China,,,1439323776,9388211
 India,,,1380004385,2973190
 United States,,,331002651,9147420
@@ -48,6 +48,23 @@ South Africa,,,59308690,1213090
 Burma,,,54409800,653290
 Kenya,,,53771296,569140
 South Korea,,,51269185,97230
+South Korea,Gyeonggi ,Incheon,2954955,1062
+South Korea,Gyeonggi ,Seoul,,
+South Korea,Gyeonggi ,Gyeonggi,,
+South Korea,Gangwon,,1564615,16875
+South Korea,Gyeongsang ,Gyeongbuk,,
+South Korea,Gyeongsang ,Daegu,,
+South Korea,Gyeongsang ,Gyeongnam,,
+South Korea,Gyeongsang ,Busan,,
+South Korea,Gyeongsang ,Ulsan,,
+South Korea,Chungcheong ,Chungbuk,,
+South Korea,Chungcheong ,Sejong,,
+South Korea,Chungcheong ,Daejeon,,
+South Korea,Chungcheong ,Chungnam,,
+South Korea,Jeolla ,Jeonbuk,,
+South Korea,Jeolla ,Gwangju,,
+South Korea,Jeolla ,Jeonnam,,
+South Korea,Jeolla ,Jeju,,
 Colombia,,,50882891,1109500
 Spain,,,46754778,498800
 Uganda,,,45741007,199810
