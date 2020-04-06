@@ -11,3 +11,8 @@ https://en.wikipedia.org/wiki/Regions_of_Italy
 
 Word population 2020 and land areas:
 https://www.worldometers.info/world-population/population-by-country/
+
+South Korea census data
+http://kosis.kr/eng/statisticsList/statisticsListIndex.do?menuId=M_01_01&vwcd=MT_ETITLE&parmTabId=M_01_01#SelectStatsBoxDiv
+
+land area for sk administrative regions linked from sk pandemic wiki page.
