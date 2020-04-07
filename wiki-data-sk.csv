@@ -577,3 +577,12 @@ date,time,region,subregion,cases,deaths
 2020-04-05,23:59,Chungcheong,Daejeon,2,0
 2020-04-05,23:59,Chungcheong,Chungnam,1,0
 2020-04-05,23:59,Airport Screening,,7,0
+2020-04-06,23:59,Gyeonggi,Seoul,4,0
+2020-04-06,23:59,Gyeonggi,Gyeonggi,10,0
+2020-04-06,23:59,Gangwon,,2,0
+2020-04-06,23:59,Gyeongsang,Gyeongbuk,1,1
+2020-04-06,23:59,Gyeongsang,Daegu,13,5
+2020-04-06,23:59,Gyeongsang,Gyeongnam,1,0
+2020-04-06,23:59,Gyeongsang,Busan,1,0
+2020-04-06,23:59,Chungcheong,Chungnam,1,0
+2020-04-06,23:59,Airport Screening,,14,0
