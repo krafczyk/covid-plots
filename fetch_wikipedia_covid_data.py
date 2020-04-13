@@ -74,7 +74,7 @@ while i_end < len(column_regions):
 sk_df = pd.DataFrame(columns = ['date', 'time', 'region', 'subregion', 'cases', 'deaths'])
 
 is_date = re.compile('^[0-9][0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]$')
-cd_extract = re.compile('^\(([0-9]*)\)([0-9]*)$')
+cd_extract = re.compile('^\(([0-9]*)\)[^0-9]?([0-9]*)$')
 ignore_ref = re.compile('^(\-?[0-9]*)\[.*\]$')
 plain_val = re.compile('^(\-?[0-9]*)$')
 multi_row = 0
@@ -132,7 +132,7 @@ for row in table_rows:
                         deaths = 0
                         cases = int(match.group(1))
                     else:
-                        raise RuntimeError(f"Fall back match failed! {cell_text} {row}")
+                        raise RuntimeError(f"South Korea Fall back match failed! {{{cell_text}}} {row}")
                 sk_df = sk_df.append({'date':date_text,
                                       'time':time_text,
                                       'region': column_regions[i][0],
@@ -203,7 +203,7 @@ while i_end < len(column_regions):
 it_df = pd.DataFrame(columns = ['date', 'region', 'subregion', 'cases', 'deaths'])
 
 is_date = re.compile('^[0-9][0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]$')
-val = re.compile('^(\((\-?[0-9]*)\))?( )?(\-?[0-9]*)?$')
+val = re.compile('^(\((\-?[0-9]*)\))?([^0-9])?(\-?[0-9]*)?$')
 date_text = None
 
 for row in table_rows:
@@ -233,7 +233,7 @@ for row in table_rows:
                             deaths = int(match.group(2))
                         extracted = True
                 if not extracted:
-                    raise RuntimeError(f"Matching failed! {i} {{{cell_text}}} ({row})")
+                    raise RuntimeError(f"Italy Matching failed! {i} {{{cell_text}}} ({row})")
 
                 it_df = it_df.append({'date':date_text,
                                       'region': column_regions[i][0],
