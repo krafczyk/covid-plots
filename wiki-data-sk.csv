@@ -586,3 +586,46 @@ date,time,region,subregion,cases,deaths
 2020-04-06,23:59,Gyeongsang,Busan,1,0
 2020-04-06,23:59,Chungcheong,Chungnam,1,0
 2020-04-06,23:59,Airport Screening,,14,0
+2020-04-07,23:59,Gyeonggi,Incheon,4,0
+2020-04-07,23:59,Gyeonggi,Seoul,11,2
+2020-04-07,23:59,Gyeonggi,Gyeonggi,6,3
+2020-04-07,23:59,Gangwon,,2,0
+2020-04-07,23:59,Gyeongsang,Gyeongbuk,3,0
+2020-04-07,23:59,Gyeongsang,Daegu,9,3
+2020-04-07,23:59,Gyeongsang,Gyeongnam,1,0
+2020-04-07,23:59,Gyeongsang,Busan,2,0
+2020-04-07,23:59,Jeolla,Jeonbuk,1,0
+2020-04-07,23:59,Airport Screening,,14,0
+2020-04-08,23:59,Gyeonggi,Seoul,12,0
+2020-04-08,23:59,Gyeonggi,Gyeonggi,10,1
+2020-04-08,23:59,Gyeongsang,Gyeongbuk,0,1
+2020-04-08,23:59,Gyeongsang,Daegu,4,2
+2020-04-08,23:59,Gyeongsang,Gyeongnam,2,0
+2020-04-08,23:59,Chungcheong,Chungnam,1,0
+2020-04-08,23:59,Airport Screening,,10,0
+2020-04-09,23:59,Gyeonggi,Incheon,1,0
+2020-04-09,23:59,Gyeonggi,Seoul,5,0
+2020-04-09,23:59,Gyeonggi,Gyeonggi,9,0
+2020-04-09,23:59,Gyeongsang,Gyeongbuk,7,1
+2020-04-09,23:59,Gyeongsang,Daegu,0,3
+2020-04-09,23:59,Gyeongsang,Busan,1,0
+2020-04-09,23:59,Airport Screening,,4,0
+2020-04-10,23:59,Gyeonggi,Seoul,4,0
+2020-04-10,23:59,Gyeonggi,Gyeonggi,9,0
+2020-04-10,23:59,Gyeongsang,Gyeongbuk,3,0
+2020-04-10,23:59,Gyeongsang,Daegu,7,3
+2020-04-10,23:59,Gyeongsang,Ulsan,1,0
+2020-04-10,23:59,Airport Screening,,6,0
+2020-04-11,23:59,Gyeonggi,Incheon,1,0
+2020-04-11,23:59,Gyeonggi,Seoul,3,0
+2020-04-11,23:59,Gyeonggi,Gyeonggi,4,1
+2020-04-11,23:59,Gyeongsang,Gyeongbuk,3,1
+2020-04-11,23:59,Gyeongsang,Daegu,2,1
+2020-04-11,23:59,Chungcheong,Chungnam,1,0
+2020-04-11,23:59,Airport Screening,,18,0
+2020-04-12,23:59,Gyeonggi,Incheon,1,0
+2020-04-12,23:59,Gyeonggi,Seoul,8,0
+2020-04-12,23:59,Gyeonggi,Gyeonggi,3,1
+2020-04-12,23:59,Gyeongsang,Gyeongbuk,4,1
+2020-04-12,23:59,Gyeongsang,Daegu,3,1
+2020-04-12,23:59,Airport Screening,,6,0
