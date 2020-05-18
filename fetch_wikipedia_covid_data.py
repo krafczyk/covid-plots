@@ -147,10 +147,11 @@ r = requests.get(italy_page)
 soup = BeautifulSoup(r.text, 'html.parser')
 
 # Get the stats table
+italy_matcher = re.compile('float:[ ]?left; text-align:[ ]?right; font-size:8[0-9]%;.*')
 table_attrs = {
     'class': ['wikitable', 'mw-collapsible',
               'mw-made-collapsible'],
-    'style': 'float:left; text-align:right; font-size:81%;' }
+    'style': italy_matcher }
 try:
     stats_table = soup.find_all('table', attrs=table_attrs)[0]
 except:
